@@ -246,10 +246,7 @@ section>*{position:relative;z-index:2}
 
 <section class="light rsvp">
   <svg class="art draw a-env" viewBox="0 -16 130 100" data-anchor="60,60" style="--sw:1.2" aria-hidden="true"><path pathLength="1" style="--d:0.00" d="M16 22V2H104V22"/><path class="v" pathLength="1" style="--d:0.40" d="M30 10H90M30 16H72"/><path pathLength="1" style="--d:0.30" d="M6 22H114V82H6Z"/><path pathLength="1" style="--d:0.90" d="M6 22L60 60L114 22"/><path pathLength="1" style="--d:1.40" d="M6 82L48 50M114 82L72 50"/><path class="red" pathLength="1" style="--d:1.70" d="M50.0 60.0a10 10 0 1 0 20 0a10 10 0 1 0 -20 0"/><path class="red fill" pathLength="1" style="--d:2.00" transform="translate(53.33 53.60) scale(0.133)" d="M50 88C20 65 5 48 5 30 5 15 17 8 28 8 38 8 46 14 50 22 54 14 62 8 72 8 83 8 95 15 95 30 95 48 80 65 50 88Z"/><path class="red" pathLength="1" style="--d:2.40" transform="translate(14.11 -11.73) scale(0.078)" d="M50 88C20 65 5 48 5 30 5 15 17 8 28 8 38 8 46 14 50 22 54 14 62 8 72 8 83 8 95 15 95 30 95 48 80 65 50 88Z"/><path class="red" pathLength="1" style="--d:2.60" transform="translate(101.22 -6.67) scale(0.056)" d="M50 88C20 65 5 48 5 30 5 15 17 8 28 8 38 8 46 14 50 22 54 14 62 8 72 8 83 8 95 15 95 30 95 48 80 65 50 88Z"/><path class="red" pathLength="1" style="--d:2.80" transform="translate(121.78 9.87) scale(0.044)" d="M50 88C20 65 5 48 5 30 5 15 17 8 28 8 38 8 46 14 50 22 54 14 62 8 72 8 83 8 95 15 95 30 95 48 80 65 50 88Z"/></svg>
-  <div class="l rv">RSVP</div>
   <h3 class="t rv">We would love <i class="i">to celebrate</i> with you.</h3>
-  <p class="rv">Kindly confirm your attendance.</p>
-  <button class="btn rv" id="btn">CONFIRM ATTENDANCE</button>
   <small class="l rv">Wedding invitation</small>
   <h5 class="d rv">Hany<br>&amp; Shahd</h5>
   <div class="ar rv">هاني وشهد</div>
@@ -360,7 +357,6 @@ requestAnimationFrame(loop);
 addEventListener('resize',build);addEventListener('load',build);
 if(document.fonts)document.fonts.ready.then(build);
 build();setTimeout(build,800);
-document.getElementById('btn').addEventListener('click',e=>{const b=e.currentTarget;b.textContent='ATTENDANCE CONFIRMED';b.classList.add('ok')});
 </script>
 </body>
 </html>
